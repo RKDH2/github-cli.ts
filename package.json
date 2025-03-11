@@ -42,6 +42,7 @@
       "main"
     ]
   },
+  "packageManager": "pnpm@10.6.2",
   "engines": {
     "node": ">=18.0.0"
   }
