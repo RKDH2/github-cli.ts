@@ -8,7 +8,6 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout branch
         uses: actions/checkout@v4
@@ -24,9 +23,6 @@ jobs:
 
       - name: Install Dependencies
         run: pnpm i --frozen-lockfile
-
-      - name: Run build
-        run: pnpm run build
 
       - name: Run Semantic release
         run: pnpm run release
