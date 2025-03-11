@@ -1,28 +1,26 @@
 {
-  "$schema": "https://biomejs.dev/schemas/biome.json",
-  "javascript": {
-    "formatter": {
-      "enabled": true,
-      "indentStyle": "space",
-      "quoteStyle": "single",
-      "semicolons": "always"
-    }
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "vcs": {
+    "enabled": false,
+    "clientKind": "git",
+    "useIgnoreFile": false
   },
-  "linter": {
-    "enabled": true,
-    "rules": {
-      "recommended": true,
-      "suspicious": {
-        "noExplicitAny": "error"
-      }
-    }
+  "formatter": {
+    "indentStyle": "space"
   },
   "organizeImports": {
     "enabled": true
   },
-  "vcs": {
+  "linter": {
     "enabled": true,
-    "clientKind": "git",
-    "useIgnoreFile": true
+    "rules": {
+      "recommended": true
+    }
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single",
+      "semicolons": "always"
+    }
   }
 }

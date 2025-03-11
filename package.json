@@ -30,6 +30,7 @@
   "dependencies": {
     "@types/node": "^22.13.5",
     "axios": "^1.8.1",
+    "biome": "^0.3.3",
     "chalk": "4.1.2",
     "commander": "^13.1.0",
     "ts-node": "^10.9.2",
