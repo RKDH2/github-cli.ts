@@ -1,5 +1,6 @@
 {
-  "javascript.formatter": {
+  "$schema": "https://biomejs.dev/schemas/biome.json",
+  "javascript": {
     "formatter": {
       "enabled": true,
       "indentStyle": "space",
@@ -11,19 +12,13 @@
     "enabled": true,
     "rules": {
       "recommended": true,
-      "style": {
-        "useSingleQuotes": true,
-        "useSemicolons": true
-      },
       "suspicious": {
         "noExplicitAny": "error"
       }
     }
   },
   "organizeImports": {
-    "enabled": true,
-    "sortOrder": "asc",
-    "separateImports": true
+    "enabled": true
   },
   "vcs": {
     "enabled": true,
