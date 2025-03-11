@@ -16,7 +16,7 @@ jobs:
       - name: Checkout branch
         uses: actions/checkout@v4
 
-      - name: Setup pnpm
+      - name: Install dependencies
         uses: pnpm/action-setup@v4
 
       - name: Setup node.js
