@@ -1,0 +1,48 @@
+{
+  "name": "github-cli",
+  "version": "0.0.0",
+  "description": "Github 레포지토리 및 사용자 정보를 분석하고 가져오는 CLI",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "github-cli": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "scripts": {
+    "lint": "biome chceck .",
+    "build": "rimraf dist && tsc"
+  },
+  "keywords": [
+    "github",
+    "cli",
+    "typescript",
+    "repository",
+    "user",
+    "info",
+    "analyze"
+  ],
+  "author": "Garnet",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^22.13.5",
+    "axios": "^1.8.1",
+    "chalk": "4.1.2",
+    "commander": "^13.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "rimraf": "^6.0.1"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
