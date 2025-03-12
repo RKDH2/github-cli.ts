@@ -2235,11 +2235,7 @@ snapshots:
 
   aws4@1.13.2: {}
 
-<<<<<<< HEAD
   axios@1.8.3:
-=======
-  axios@1.8.2:
->>>>>>> 54587125deb1f541ca0257fcfb8a309524e59dbf
     dependencies:
       follow-redirects: 1.15.9
       form-data: 4.0.2
