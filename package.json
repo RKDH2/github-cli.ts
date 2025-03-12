@@ -1,5 +1,5 @@
 {
-  "name": "github-cli",
+  "name": "github-cli.ts",
   "version": "0.0.0",
   "description": "Github 레포지토리 및 사용자 정보를 분석하고 가져오는 CLI",
   "main": "dist/index.js",
