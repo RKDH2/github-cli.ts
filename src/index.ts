@@ -8,7 +8,7 @@ import { getUserData } from "./commands/user";
 const program = new Command();
 
 program
-  .name("github-cli.ts")
+  .name("github")
   .description("Github 정보를 분석하고 가져오는 CLI")
   .version("0.0.0", "-v", "--version")
   .showHelpAfterError();

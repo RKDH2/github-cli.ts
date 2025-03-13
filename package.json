@@ -4,9 +4,8 @@
   "description": "Github 레포지토리 및 사용자 정보를 분석하고 가져오는 CLI",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "type": "module",
   "bin": {
-    "github": "dist/index.js"
+    "github": "./dist/index.js"
   },
   "repository": {
     "type": "git"
@@ -32,9 +31,8 @@
     "@types/node": "^22.13.5",
     "axios": "^1.8.2",
     "biome": "^0.3.3",
-    "chalk": "5.4.1",
+    "chalk": "4.1.2",
     "commander": "^13.1.0",
-    "github-cli.ts": "link:../../Users/gaons/AppData/Local/pnpm/global/5/node_modules/github-cli.ts",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
   },
@@ -50,10 +48,5 @@
   "packageManager": "pnpm@10.6.2",
   "engines": {
     "node": ">=18.0.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "github-cli.ts": "link:../../Users/gaons/AppData/Local/pnpm/global/5/node_modules/github-cli.ts"
-    }
   }
 }
