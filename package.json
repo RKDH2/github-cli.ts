@@ -30,7 +30,6 @@
   "dependencies": {
     "@types/node": "^22.13.10",
     "axios": "^1.8.3",
-    "biome": "^0.3.3",
     "chalk": "4.1.2",
     "commander": "^13.1.0",
     "ts-node": "^10.9.2",
@@ -42,17 +41,13 @@
     "@semantic-release/commit-analyzer": "^13.0.1",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/release-notes-generator": "^14.0.3",
+    "eslint": "^8.57.1",
+    "prettier": "^3.5.3",
     "rimraf": "^6.0.1",
     "semantic-release": "^24.2.3"
   },
   "packageManager": "pnpm@10.6.2",
   "engines": {
     "node": ">=18.0.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "lodash": ">=4.17.21",
-      "tough-cookie": "^4.1.3"
-    }
   }
 }
