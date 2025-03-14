@@ -2,8 +2,8 @@
 
 import { Command } from "commander";
 import { getRepoData } from "./commands/repo";
-import { formatOutput } from "./utils/formatter";
 import { getUserData } from "./commands/user";
+import { formatOutput } from "./utils/formatter";
 
 const program = new Command();
 
