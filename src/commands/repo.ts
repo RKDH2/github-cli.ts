@@ -1,7 +1,8 @@
 import { httpClient } from '../api/http';
 import { ErrorObject, timeout } from '../errors/timeout';
+import { OutputData } from '../types';
 
-export async function getRepoData(repo: string): Promise<RepositoryData> {
+export async function getRepoData(repo: string): Promise<OutputData> {
   const baseUrl = `https://api.github.com/repos/${repo}`;
 
   try {

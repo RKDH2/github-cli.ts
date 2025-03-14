@@ -1,7 +1,8 @@
 import { httpClient } from '../api/http';
 import { ErrorObject, timeout } from '../errors/timeout';
+import { OutputData } from '../types';
 
-export async function getUserData(username: string): Promise<UserData> {
+export async function getUserData(username: string): Promise<OutputData> {
   const baseUrl = `https://api.github.com/users/${username}`;
 
   try {
