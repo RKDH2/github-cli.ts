@@ -11,10 +11,9 @@
     "type": "git"
   },
   "scripts": {
-    "lint": "biome check",
+    "lint": "eslint src --ignore-pattern .gitignore",
     "build": "rimraf dist && tsc",
-    "release": "semantic-release",
-    "biome": "biome check"
+    "release": "semantic-release"
   },
   "keywords": [
     "github",
