@@ -51,7 +51,8 @@
   },
   "pnpm": {
     "overrides": {
-      "lodash": ">=4.17.21"
+      "lodash": ">=4.17.21",
+      "tough-cookie": "^4.1.3"
     }
   }
 }
