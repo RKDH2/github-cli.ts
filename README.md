@@ -26,3 +26,6 @@ Commands:
   user [options] <username>  Github 사용자 정보를 가져옵니다.
   help [command]             display help for command
 ```
+
+## 출력 결과 (example)
+<img src="https://github.com/RKDH2/github-cli.ts/blob/main/assets/github-cli-1.png" width="500" height="300"/> <img src="https://github.com/RKDH2/github-cli.ts/blob/main/assets/github-cli-2.png" width="500" height="300"/>
