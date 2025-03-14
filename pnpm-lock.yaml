@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  lodash: '>=4.17.21'
+
 importers:
 
   .:
@@ -23,9 +26,6 @@ importers:
       commander:
         specifier: ^13.1.0
         version: 13.1.0
-      lodash:
-        specifier: ^4.17.21
-        version: 4.17.21
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.13.10)(typescript@5.8.2)
@@ -1107,9 +1107,6 @@ packages:
 
   lodash.uniqby@4.7.0:
     resolution: {integrity: sha512-e/zcLx6CSbmaEgFHCA7BnoQKyCtKMxnuWrJygbwPs/AIn+IMKl66L8/s+wBUn5LRw2pZx3bUHibiV1b6aTWIww==}
-
-  lodash@3.10.1:
-    resolution: {integrity: sha512-9mDDwqVIma6OZX79ZlDACZl8sBm0TEnkf99zV3iMA4GzkIT/9hiqP5mY0HoT1iNLCrKc/R1HByV+yJfRWVJryQ==}
 
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
@@ -2854,7 +2851,7 @@ snapshots:
       cli-cursor: 1.0.2
       cli-width: 1.1.1
       figures: 1.7.0
-      lodash: 3.10.1
+      lodash: 4.17.21
       readline2: 1.0.1
       run-async: 0.1.0
       rx-lite: 3.1.2
@@ -2985,8 +2982,6 @@ snapshots:
   lodash.isstring@4.0.1: {}
 
   lodash.uniqby@4.7.0: {}
-
-  lodash@3.10.1: {}
 
   lodash@4.17.21: {}
 
