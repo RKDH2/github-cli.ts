@@ -15,10 +15,13 @@ pnpm add github-cli.ts
 Usage: github [options] [command]
 ```
 ```
+JSON 형식으로 출력:
+Usage: github [options] [command] --json
+```
+```
 Options:
   -v                         --version
   -h, --help                 display help for command
-  --json                     JSON 형식으로 출력
 ```
 ```
 Commands:
