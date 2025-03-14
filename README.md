@@ -28,4 +28,10 @@ Commands:
 ```
 
 ## 출력 결과 (example)
+```
+github repo RKDH2/github-cli.ts
+```
+```
+github repo RKDH2/github-cli.ts --json
+```
 <img src="https://github.com/RKDH2/github-cli.ts/blob/main/assets/github-cli-1.png" width="500" height="300"/> <img src="https://github.com/RKDH2/github-cli.ts/blob/main/assets/github-cli-2.png" width="500" height="300"/>
