@@ -4,9 +4,9 @@ export interface ErrorObject {
 }
 
 export function timeout(error: ErrorObject): void {
-  if (error.code === "ECONNABORTED") {
-    console.error("Request timed out");
+  if (error.code === 'ECONNABORTED') {
+    console.error('Request timed out');
   } else {
-    console.error("Request failed:", error.message);
+    console.error('Request failed:', error.message);
   }
 }

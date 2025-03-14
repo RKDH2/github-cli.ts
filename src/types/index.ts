@@ -1,5 +1,5 @@
 interface RepositoryData {
-  type: "repo";
+  type: 'repo';
   name: string;
   owner: string;
   profile_url: string;
@@ -15,7 +15,7 @@ interface RepositoryData {
 }
 
 interface UserData {
-  type: "user";
+  type: 'user';
   login: string;
   name: string;
   profile_url: string;
@@ -31,4 +31,4 @@ interface UserData {
   updated_at: string;
 }
 
-type OutputData = RepositoryData | UserData;
+export type OutputData = RepositoryData | UserData;

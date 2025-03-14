@@ -1,5 +1,5 @@
-import { httpClient } from "../api/http";
-import { ErrorObject, timeout } from "../errors/timeout";
+import { httpClient } from '../api/http';
+import { ErrorObject, timeout } from '../errors/timeout';
 
 export async function getUserData(username: string): Promise<UserData> {
   const baseUrl = `https://api.github.com/users/${username}`;
@@ -23,14 +23,14 @@ export async function getUserData(username: string): Promise<UserData> {
       updated_at,
     } = response;
     return {
-      type: "user",
+      type: 'user',
       login,
       name,
       profile_url: html_url,
-      company: company || "NO COMPANY",
-      blog: blog || "NO BLOG",
+      company: company || 'NO COMPANY',
+      blog: blog || 'NO BLOG',
       location,
-      email: email || "NO EMAIL",
+      email: email || 'NO EMAIL',
       bio,
       public_repos,
       followers,
@@ -40,6 +40,6 @@ export async function getUserData(username: string): Promise<UserData> {
     };
   } catch (error) {
     timeout(error as ErrorObject);
-    throw new Error("GitHub API Error: Failed to fetch user data");
+    throw new Error('GitHub API Error: Failed to fetch user data');
   }
 }

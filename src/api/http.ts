@@ -1,8 +1,8 @@
-import axios, { AxiosInstance } from "axios";
+import axios, { AxiosInstance } from 'axios';
 
 export default class HttpClient {
   private readonly rest: AxiosInstance;
-  private readonly baseUrl = "https://api.github.com";
+  private readonly baseUrl = 'https://api.github.com';
 
   constructor() {
     this.rest = axios.create({
@@ -14,11 +14,11 @@ export default class HttpClient {
       (response) => response,
       (error) => {
         console.error(
-          "GitHub API Error:",
-          error.response?.data?.message || error.message
+          'GitHub API Error:',
+          error.response?.data?.message || error.message,
         );
-        throw new Error("GitHub API Error");
-      }
+        throw new Error('GitHub API Error');
+      },
     );
   }
 

@@ -1,4 +1,5 @@
-import chalk from "chalk";
+import { OutputData } from '../types';
+import chalk from 'chalk';
 
 export function formatOutput(data: OutputData, isJson: boolean) {
   if (isJson) {
@@ -6,7 +7,7 @@ export function formatOutput(data: OutputData, isJson: boolean) {
   }
 
   switch (data.type) {
-    case "repo":
+    case 'repo':
       return `
     Repo: ${chalk.blue.bold(data.name)} (${chalk.gray(data.owner)})
     Profile_url: ${chalk.blueBright(data.profile_url)}
@@ -21,7 +22,7 @@ export function formatOutput(data: OutputData, isJson: boolean) {
     Language: ${chalk.cyan(data.language)}
     Last Updated: ${chalk.magenta(data.updated_at)}
     `;
-    case "user":
+    case 'user':
       return `
       User: ${chalk.blue.bold(data.name)} (${chalk.gray(data.login)})
       Profile_url: ${chalk.magenta(data.profile_url)}
