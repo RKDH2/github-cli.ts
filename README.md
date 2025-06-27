@@ -1,7 +1,7 @@
 # github-cli.ts
 ![License](https://img.shields.io/badge/License-MIT-blue.svg?color=green) ![npm](https://img.shields.io/npm/v/github-cli.ts?color=orange)
 
-Github 레포지토리 및 사용자 정보를 빠르게 확인할 수 있는 CLI 라이브러리 입니다.
+Github 레포지토리 및 사용자 정보를 빠르게 확인할 수 있는 CLI 라이브러리입니다.
 
 ## 설치 방법 (npm, yarn, pnpm)
 ```
